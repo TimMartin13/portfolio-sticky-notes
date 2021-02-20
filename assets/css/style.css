@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lato';
+    background-image: url("https://images.creativemarket.com/0.1.0/ps/6471534/1820/1213/m1/fpnw/wm1/etodr1xllga6stcmdgmmze4mfznambpsphwvqn9bibsvxic3js10pfai0gimblud-.jpg?1559328751&s=397f1b83f1cca1fa251ccb4e5efeb849");
+    color:#fff;
+  }
+  
+*{
+    margin:0;
+    padding:0;
+}
+  
+/* Page header */
+header {
+    position: fixed;
+    top: 0;
+    background-color: #2B2D2F;
+}
+
+main {
+    margin: 1em;
+}
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+   
+.links {
+    display: flex;
+    margin-bottom: 0.5em;
+}
+
+.left {
+    text-align: right;
+}
+
+h6 a{
+    font-family: 'Reenie Beanie';
+    font-size: 2rem;
+    text-decoration: none;
+    color:#000;
+}
+   
+.notes-list, .note {
+    list-style:none;
+}
+
+.notes-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.notes-list .note section{
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:25em;
+    width:25em;
+    padding:1em;
+    margin: 2em 1em 0em;
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+    transform: rotate(-6deg);
+}
+
+.notes-list .note{
+    margin:1em;
+}
+
+.notes-list .note:nth-child(even) section{
+    transform:rotate(4deg);
+    position:relative;
+    top:5px;
+}
+.notes-list .note:nth-child(3n) section{
+    transform:rotate(-3deg);
+    position:relative;
+    top:-5px;
+}
+.notes-list .note:nth-child(5n) section{
+    transform:rotate(5deg);
+    position:relative;
+    top:-10px;
+}
+
+.notes-list .note section:hover,ul li section:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+    position:relative;
+    z-index:5;
+}
+
+.left {
+    text-align: left;
+}
+
+.portfolio {
+    width: 23em;
+    height: 16em;
+    object-fit: cover;
+}
+
+.position {
+    object-position: 0px 5%;
+}
