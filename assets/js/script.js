@@ -1,3 +1,4 @@
+
 // Change the color of the list items randomly based on an array of colors
 $('section').each(function() {
     // [Orange, Yellow, Pink, Blue, Yellow, Green]
